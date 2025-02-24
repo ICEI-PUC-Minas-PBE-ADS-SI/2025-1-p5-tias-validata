@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: Please cite this software using these metadata.
-title: Coloque aqui o título do seu trabalho
+title: ValiData
 authors:
-  - family-names: Sobrenome do aluno 1
-    given-names: Nome do aluno 1 
+  - family-names: Oliveira Santos
+    given-names: Raphael Henrique
   - family-names: Sobrenome do aluno 2
     given-names: Nome do aluno 2 
   - family-names: Sobrenome do aluno 3
@@ -24,7 +24,7 @@ keywords:
     - coloque aqui a palavra-chave 1
     - coloque aqui a palavra-chave 2
     - coloque aqui a palavra-chave 3
-repository-code: coloque o link do seu repositório
+repository-code: https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-validata
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2024-08-01
