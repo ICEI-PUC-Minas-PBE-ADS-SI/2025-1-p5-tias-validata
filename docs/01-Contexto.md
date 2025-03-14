@@ -1,51 +1,86 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto. Visando contextualizar melhor o projeto e destacar sua importância para a disciplina, que é **extensionista**, acrescente todas as informações relevantes que julgar necessárias.
+O desperdício de alimentos representa um desafio global significativo, tanto do ponto de vista econômico quanto ambiental. No Brasil, aproximadamente 30% dos alimentos produzidos são desperdiçados anualmente, resultando em perdas financeiras substanciais para o setor varejista e impactos negativos ao meio ambiente.
 
-## Cliente 
-Nesta seção, devem ser apresentadas informações essenciais sobre o cliente (parceiro) para garantir um entendimento mais preciso do projeto como uma iniciativa extensionista.  
+Os pequenos e médios varejistas de alimentos – incluindo padarias, mercearias, quitandas e minimercados – enfrentam esse problema diariamente, sem acesso a ferramentas tecnológicas adequadas que poderiam mitigar essas perdas e otimizar suas operações.
 
-Recomenda-se incluir dados como missão, visão e valores da organização, além de seu ramo de atuação, porte, nicho de mercado e principais desafios enfrentados. Também é relevante fornecer informações sobre sua localização, histórico, impacto social e possíveis demandas específicas. Quanto mais detalhadas forem essas informações, mais embasada será a análise do contexto, permitindo uma abordagem estratégica e alinhada às necessidades do cliente.
+## Cliente
+
+A missão deste projeto é reduzir o desperdício alimentar no varejo brasileiro através de tecnologia acessível e inteligente, criando valor simultâneo para varejistas, consumidores e meio ambiente.
+
+Visando sustentabilidade através do comprometimento com práticas que reduzam o impacto ambiental do setor alimentício, propomos democratizar o acesso à tecnologia para pequenos e médios negócios através de informações claras e precisas para todos os usuários do sistema.
+
+Neste projeto, o parceiro escolhido foi uma padaria de pequeno porte localizada no bairro XYZ na cidade de Betim, região metropolitana da capital do estado de Minas Gerais.
 
 ## Problema
-Aqui, a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+Atualmente, os varejistas de pequeno e médio porte do setor alimentício enfrentam múltiplos desafios interconectados:
 
-O grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite uma visão completa do problema.
+1. Perdas financeiras significativas devido a produtos que atingem a data de validade e precisam ser descartados;
+2. Processos ineficientes de compra e gestão de estoque, frequentemente baseados em estimativas imprecisas e não em dados concretos;
+3. Dificuldade em precificar estrategicamente produtos próximos ao vencimento para garantir sua venda sem prejudicar excessivamente as margens;
+4. Competição acirrada com grandes redes varejistas que possuem sistemas sofisticados de gestão de estoques e precificação;
+5. Ausência de ferramentas tecnológicas acessíveis adaptadas à realidade operacional e financeira destes estabelecimentos.
 
-> **Links úteis**:
-> - [Objetivos, problema de pesquisa e justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz certezas, suposições e dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Além disso, há uma crescente conscientização dos consumidores brasileiros sobre o impacto ambiental do desperdício de alimentos, bem como uma busca constante por oportunidades de economia em um cenário econômico desafiador.
 
 ## Objetivos
 
-Aqui, você deve descrever os objetivos do trabalho, indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima.
+O sistema de redução de desperdício alimentar foi concebido com os seguintes objetivos primordiais:
 
-Além disso, apresente alguns (pelo menos 3) objetivos específicos, dependendo de onde você pretende concentrar sua prática investigativa ou como deseja aprofundar seu trabalho.
- 
-> **Links úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+1. Reduzir o volume de alimentos desperdiçados por vencimento nos estabelecimentos participantes;
+2. Criar um sistema inteligente de precificação dinâmica baseado na proximidade da data de validade dos produtos;
+3. Desenvolver uma ferramenta de análise de dados que permita otimizar os processos de compra junto aos fornecedores;
+4. Estabelecer um equilíbrio entre a redução de desperdício e a manutenção da rentabilidade dos estabelecimentos;
+5. Criar uma plataforma que conecte consumidores conscientes a produtos com descontos progressivos;
+6. Contribuir para a sustentabilidade ambiental através da redução significativa do desperdício alimentar.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Este projeto nasce da necessidade urgente de democratizar o acesso à tecnologia para pequenos e médios varejistas do setor alimentício, permitindo que utilizem ferramentas modernas para competir de forma mais eficaz no mercado. A motivação está fundamentada em três pilares:
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+1. **Econômico:** Potencializar a lucratividade dos pequenos e médios varejistas através da redução de perdas e otimização de processos;
+2. **Social:** Facilitar o acesso dos consumidores a alimentos de qualidade a preços mais acessíveis, especialmente em um cenário onde a segurança alimentar é uma preocupação crescente;
+3. **Ambiental:** Contribuir para a redução do impacto ambiental associado ao desperdício de alimentos, incluindo emissões de gases de efeito estufa, uso desnecessário de recursos naturais e geração de resíduos.
 
-> **Links úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+_O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo._
 
 ## Público-alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O projeto destina-se primariamente a dois grupos:
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+**Varejistas de Alimentos de Pequeno e Médio Porte**
 
-> **Links úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público-alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+- Padarias e confeitarias
+- Mercearias e minimercados
+- Quitandas e sacolões
+- Empórios e lojas de produtos naturais
+- Açougues e peixarias
+- Pequenos supermercados de bairro
+
+Estes estabelecimentos caracterizam-se por terem um número baixo de funcionários, um faturamento mensal não muito expressivo, e desafios específicos relacionados à gestão de produtos perecíveis com datas de validade variadas.
+
+O software foi projetado considerando o perfil tecnológico típico encontrado nestes estabelecimentos:
+
+- **Nível de familiaridade tecnológica:** O sistema não pressupõe conhecimento avançado em tecnologia, sendo desenvolvido para usuários com conhecimento básico a intermediário de ferramentas digitais. A maioria dos usuários-alvo possui experiência diária com smartphones e aplicativos simples, mas pode ter pouca ou nenhuma experiência com sistemas de gestão empresarial mais sofisticados.
+
+- **Gerentes de loja/proprietários:** Responsáveis pela configuração inicial do sistema, definição de políticas de desconto e análise de relatórios gerenciais. Tipicamente pessoas com formação técnica ou superior, mas nem sempre em áreas relacionadas à tecnologia ou gestão formal.
+
+- **Colaboradores de estoque:** Encarregados do registro de entrada de mercadorias, atualização de quantidades e datas de validade. Geralmente possuem ensino médio completo e familiaridade básica com dispositivos digitais.
+
+- **Operadores de caixa:** Responsáveis pela confirmação das vendas e aplicação dos descontos gerados pelo sistema. Frequentemente são jovens (18-30 anos) com ensino médio completo e alguma facilidade com interfaces digitais simples.
+
+A maioria destes estabelecimentos já possui computadores básicos ou tablets para operações administrativas e, em alguns casos, sistemas de controle de caixa simplificados. A conectividade à internet é comum, embora nem sempre com alta velocidade ou estabilidade.
+
+Muitos utilizam algum software simples de gestão (como planilhas eletrônicas ou sistemas de PDV básicos), ainda há um número considerável desses varejistas que fazem uso predominantemente de métodos manuais ou semi-manuais para gestão de estoque e controle de validade.
+
+Reconhecendo as variações no perfil tecnológico dos usuários, o projeto inclui um processo de onboarding simplificado, além de suporte técnico via WhatsApp. Prevê-se um período de treinamento inicial presencial de 4-8 horas para os principais operadores do sistema.
+
+**Consumidores**
+
+- Famílias de classes B, C e D que buscam economizar em suas compras de alimentos
+- Consumidores conscientes sobre questões ambientais e desperdício
+- Estudantes e jovens profissionais com orçamento limitado
+- Pessoas interessadas em contribuir para práticas sustentáveis através de suas escolhas de consumo
+
+_Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders._
