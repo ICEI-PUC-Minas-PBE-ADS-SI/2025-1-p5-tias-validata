@@ -1,101 +1,170 @@
 # Especificação do projeto
 
-<span style="color:red">Pré-requisitos: <a href="01-Contexto.md"> Documentação de contexto</a></span>
+## Visão Geral
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Este documento apresenta a especificação completa para um sistema de gestão de validade e precificação dinâmica destinado a comerciantes varejistas. O sistema visa auxiliar no controle de produtos próximos ao vencimento, aplicando descontos estratégicos com base na data de validade e na taxa de saída dos produtos, minimizando perdas e maximizando lucros.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto.
+Para elaborar esta especificação, foram utilizadas as seguintes técnicas e ferramentas:
+
+- Análise de requisitos baseada em transcrições de reuniões de projeto
+- Criação de personas representativas do público-alvo
+- Elaboração de histórias de usuários
+- Definição de requisitos funcionais e não funcionais
+- Diagramação de casos de uso
 
 ## Personas
 
-Exemplo: _Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente por meio de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros._
+### Carlos Silva - Proprietário de Pequeno Mercado de Bairro
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+**Idade:** 45 anos
+**Formação:** Ensino médio completo com curso técnico em administração
+**Ocupação:** Dono de um mercado de bairro há 15 anos
+**Desafios:** Carlos administra um pequeno mercado que oferece produtos variados. Ele tem dificuldade em controlar o estoque e acaba tendo prejuízo significativo com produtos vencidos ou próximos ao vencimento que precisam ser descartados. Faz contagem manual de estoque e controle de validade em planilhas simples, mas frequentemente não consegue acompanhar todos os itens.
+**Necessidades:** Um sistema que o alerte sobre produtos próximos ao vencimento e o ajude a definir estratégias de precificação para minimizar perdas.
+**Motivações:** Reduzir prejuízos, melhorar a gestão do negócio e aumentar a lucratividade.
 
-> **Links úteis**:
-> - [Rock content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+### Mariana Oliveira - Gerente de Padaria
+
+**Idade:** 38 anos
+**Formação:** Graduada em Administração
+**Ocupação:** Gerente de uma padaria de médio porte com produtos de fabricação própria e revenda
+**Desafios:** Mariana precisa gerenciar tanto produtos fabricados internamente quanto itens de revenda. As matérias-primas e produtos industrializados têm diferentes prazos de validade, e ela tem dificuldade em aplicar estratégias eficientes de precificação para produtos próximos ao vencimento.
+**Necessidades:** Um sistema que diferencie categorias de produtos, aplique descontos estratégicos considerando a procura por cada item e a proximidade do vencimento.
+**Motivações:** Reduzir o desperdício de alimentos, otimizar a gestão de estoque e melhorar a margem de lucro.
+
+### Ricardo Mendes - Proprietário de Hortifruti
+
+**Idade:** 42 anos
+**Formação:** Técnico em contabilidade
+**Ocupação:** Dono de uma rede de três lojas de hortifruti
+**Desafios:** Ricardo lida com produtos altamente perecíveis e com grande variação de demanda. Tem dificuldade em coordenar promoções entre as lojas e acompanhar a validade de produtos em múltiplos pontos de venda.
+**Necessidades:** Um sistema centralizado que monitore o estoque de todas as lojas, identifique produtos próximos ao vencimento e sugira transferências entre lojas ou aplicação de descontos personalizados conforme o histórico de vendas de cada unidade.
+**Motivações:** Expandir seu negócio mantendo controle eficiente sobre perdas, padronizar a gestão entre as lojas e aumentar a eficiência operacional.
 
 ## Histórias de usuários
 
 Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuários que são relevantes para o projeto da sua solução. As histórias de usuários consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuários por contexto, para facilitar consultas recorrentes a esta parte do documento.
-
-> **Links úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (user stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 common user story mistakes](https://airfocus.com/blog/user-story-mistakes/)
+| EU COMO... `PERSONA`               | QUERO/PRECISO ... `FUNCIONALIDADE`                                                             | PARA ... `MOTIVO/VALOR`                                        |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| Proprietário de comércio varejista | Cadastrar produtos com suas respectivas datas de validade                                      | Manter controle sobre os prazos de vencimento                  |
+| Proprietário de comércio varejista | Visualizar alertas de produtos próximos ao vencimento                                          | Tomar ações preventivas e evitar perdas                        |
+| Proprietário de comércio varejista | Definir a margem mínima de lucro aceitável por produto                                         | Garantir que mesmo com descontos o negócio continue lucrativo  |
+| Proprietário de comércio varejista | Visualizar histórico de vendas dos produtos                                                    | Identificar quais produtos têm saída mais rápida ou mais lenta |
+| Proprietário de comércio varejista | Receber sugestões automáticas de desconto baseadas na data de vencimento e histórico de vendas | Maximizar vendas e minimizar perdas                            |
+| Gerente de loja                    | Aplicar descontos em lote para produtos com características similares                          | Agilizar o processo de precificação                            |
+| Gerente de loja                    | Gerar etiquetas de preço com destaque para produtos em promoção por vencimento                 | Atrair a atenção dos clientes para produtos em promoção        |
+| Gerente de loja                    | Emitir relatórios de produtos vendidos com desconto x produtos perdidos por vencimento         | Avaliar a eficácia da estratégia de descontos                  |
+| Multiproprietário                  | Acessar informações de estoque e validade de múltiplas lojas                                   | Gerenciar todas as unidades de forma centralizada              |
+| Multiproprietário                  | Comparar o desempenho de vendas entre diferentes lojas                                         | Identificar melhores práticas e oportunidades de melhoria      |
+| Funcionário de estoque             | Registrar entrada de produtos com leitura de código de barras                                  | Agilizar o processo de cadastro e minimizar erros              |
+| Funcionário de estoque             | Visualizar lista ordenada de produtos por proximidade do vencimento                            | Priorizar a organização de produtos nas gôndolas               |
 
 ## Requisitos
 
-As tabelas a seguir apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade dos requisitos, aplique uma técnica de priorização e detalhe como essa técnica foi aplicada.
+As tabelas a seguir apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade dos requisitos, foi utilizada a técnica MoSCoW (Must have, Should have, Could have, Won't have), que categoriza os requisitos conforme sua criticidade para o sucesso do projeto.
 
 ### Requisitos funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| ID     | Descrição do Requisito                                                                                                              | Prioridade |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| RF-001 | Permitir o cadastro de produtos com informações de código, nome, preço de custo, preço de venda, margem de lucro e data de validade | MUST       |
+| RF-002 | Permitir o registro histórico das vendas por produto                                                                                | MUST       |
+| RF-003 | Emitir alertas de produtos próximos ao vencimento                                                                                   | MUST       |
+| RF-004 | Calcular automaticamente sugestões de desconto baseadas na proximidade do vencimento e histórico de saída do produto                | MUST       |
+| RF-005 | Permitir a definição de margens mínimas de lucro por produto ou categoria                                                           | MUST       |
+| RF-006 | Possibilitar a aplicação de descontos em lote para produtos selecionados                                                            | SHOULD     |
+| RF-007 | Gerar etiquetas de preço destacando produtos em promoção por vencimento                                                             | SHOULD     |
+| RF-008 | Emitir relatórios de produtos vendidos com desconto versus produtos perdidos por vencimento                                         | SHOULD     |
+| RF-009 | Permitir o cadastro de múltiplas lojas ou unidades de negócio                                                                       | COULD      |
+| RF-010 | Integrar com leitor de código de barras para agilizar o cadastro e baixa de produtos                                                | COULD      |
+| RF-011 | Permitir a configuração de regras personalizadas para cálculo automático de descontos                                               | COULD      |
+| RF-012 | Exibir gráficos e estatísticas de desempenho de vendas e perdas                                                                     | COULD      |
+| RF-013 | Possibilitar a transferência virtual de produtos entre unidades                                                                     | COULD      |
+| RF-014 | Integrar com sistema de frente de caixa para atualização automática de estoque                                                      | COULD      |
+| RF-015 | Enviar notificações para dispositivos móveis sobre produtos críticos (muito próximos ao vencimento)                                 | COULD      |
 
 ### Requisitos não funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em dispositivos móveis | MÉDIA | 
-|RNF-002| Deve processar as requisições do usuário em no máximo 3 segundos |  BAIXA | 
-
-Com base nas histórias de usuários, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos não funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-
-Lembre-se de que cada requisito deve corresponder a uma e somente uma característica-alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas histórias de usuários foram cobertos.
-
-> **Links úteis**:
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [Entenda o que são requisitos de software, a diferença entre requisito funcional e não funcional, e como identificar e documentar cada um deles](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+| ID      | Descrição do Requisito                                                                                                | Prioridade |
+| ------- | --------------------------------------------------------------------------------------------------------------------- | ---------- |
+| RNF-001 | O sistema deve ser responsivo para rodar em dispositivos móveis e desktop                                             | MUST       |
+| RNF-002 | O sistema deve processar as requisições do usuário em no máximo 3 segundos                                            | SHOULD     |
+| RNF-003 | O sistema deve garantir a segurança dos dados do usuário através de autenticação e criptografia                       | MUST       |
+| RNF-004 | O sistema deve ser intuitivo e de fácil uso, com interface amigável para usuários com pouca experiência em tecnologia | MUST       |
+| RNF-005 | O sistema deve operar mesmo sem conexão à internet, sincronizando dados quando a conexão for reestabelecida           | SHOULD     |
+| RNF-006 | Os dados devem ser armazenados em banco de dados seguro e com backup automático diário                                | MUST       |
+| RNF-007 | O sistema deve ser capaz de importar dados de planilhas Excel ou CSV                                                  | SHOULD     |
+| RNF-008 | O sistema deve estar disponível 99% do tempo (uptime)                                                                 | SHOULD     |
+| RNF-009 | O sistema deve ser compatível com impressoras térmicas comuns no mercado                                              | COULD      |
+| RNF-010 | O sistema deve permitir integração com outras plataformas via API                                                     | COULD      |
 
 ## Restrições
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
 O projeto está restrito aos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|001| O projeto deverá ser entregue até o final do semestre |
-|002| O custo total do projeto não deve exceder o orçamento definido       |
+| ID  | Restrição                                                                                          |
+| --- | -------------------------------------------------------------------------------------------------- |
+| 001 | O projeto deverá ser entregue até o final do semestre                                              |
+| 002 | O desenvolvimento deve ser realizado com recursos limitados e orçamento predefinido                |
+| 003 | O sistema deve funcionar em computadores com configurações modestas e comuns em pequenos comércios |
+| 004 | O sistema inicialmente suportará apenas um idioma (português)                                      |
+| 005 | A equipe de desenvolvimento é composta por no máximo 5 pessoas                                     |
+| 006 | O sistema deve estar em conformidade com a Lei Geral de Proteção de Dados (LGPD)                   |
 
 ## Diagrama de casos de uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos. Ele utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. O diagrama contempla a fronteira do sistema e o detalhamento dos requisitos funcionais, com a indicação dos atores, casos de uso e seus relacionamentos.
+O diagrama de casos de uso apresenta as principais funcionalidades do sistema e como os diferentes atores (usuários) interagem com essas funcionalidades.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “diagrama de casos de uso”.
+```mermaid
+flowchart TD
+    subgraph Atores
+        A1[Proprietário]
+        A2[Gerente]
+        A3[Funcionário de Estoque]
+    end
 
-> **Links úteis**:
-> - [Criando casos de uso](https://www.ibm.com/docs/pt-br/engineering-lifecycle-management-suite/design-rhapsody/10.0?topic=cases-creating-use)
-> - [Como criar diagrama de caso de uso: tutorial passo a passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+    subgraph "Sistema de Gestão de Validade e Precificação"
+        UC1[Cadastrar Produtos]
+        UC2[Registrar Vendas]
+        UC3[Monitorar Validade]
+        UC4[Definir Margem de Lucro]
+        UC5[Gerar Sugestões de Desconto]
+        UC6[Aplicar Descontos]
+        UC7[Gerar Etiquetas]
+        UC8[Emitir Relatórios]
+        UC9[Gerenciar Múltiplas Lojas]
+    end
+
+    A1 ---> UC1
+    A1 ---> UC3
+    A1 ---> UC4
+    A1 ---> UC8
+    A1 ---> UC9
+
+    A2 ---> UC1
+    A2 ---> UC2
+    A2 ---> UC3
+    A2 ---> UC5
+    A2 ---> UC6
+    A2 ---> UC7
+    A2 ---> UC8
+
+    A3 ---> UC1
+    A3 ---> UC3
+    A3 ---> UC7
+
+    UC3 --> UC5
+    UC5 --> UC6
+    UC6 --> UC7
+```
+
+O diagrama acima ilustra as interações entre os diferentes atores do sistema:
+
+1. **Proprietário**: Tem acesso às funcionalidades administrativas e estratégicas como cadastrar produtos, monitorar validade, definir margens de lucro, emitir relatórios e gerenciar múltiplas lojas.
+
+2. **Gerente**: Possui acesso operacional mais amplo, incluindo registro de vendas, geração e aplicação de descontos e etiquetas além das funcionalidades compartilhadas com o proprietário.
+
+3. **Funcionário de Estoque**: Tem acesso mais limitado, focado nas atividades de cadastro de produtos, monitoramento de validade e geração de etiquetas.
+
+O fluxo mostra também as relações entre casos de uso, onde o monitoramento de validade leva à geração de sugestões de desconto, que por sua vez leva à aplicação de descontos e finalmente à geração de etiquetas promocionais.
