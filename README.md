@@ -1,25 +1,25 @@
-# Nome do projeto
+# Validata
 
 `CURSO: Sistemas de Informação`
 
 `DISCIPLINA: Trabalho Interdisciplinar Aplicações para Sustentabilidade`
 
-`Xº semestre/ANO`
+`5º semestre/2025`
 
 Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+- Carlos Alberto Muniz Ferreira Junior
+- Gabriel de Castro Botini Soares
+- Guilherme Saliba Moreira de Oliveira
+- Gustavo Henrique de Souza Cruz
+- Raphael Henrique Oliveira Santos
+- Victor Rowilson Vieira de Carvalho
 
 ## Professor
 
-* Nome completo do(a) professor(a)
+- Amália Soares Vieira de Vasconcelos
 
 ## Instruções de utilização
 
@@ -51,8 +51,8 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 
 # Código
 
-* <a href="src/README.md">Código</a>
+- <a href="src/README.md">Código</a>
 
 # Apresentação
 
-* <a href="presentation/README.md">Apresentação do projeto</a>
+- <a href="presentation/README.md">Apresentação do projeto</a>
