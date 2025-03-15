@@ -55,8 +55,6 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | Gerente de loja                    | Aplicar descontos em lote para produtos com características similares                          | Agilizar o processo de precificação                            |
 | Gerente de loja                    | Gerar etiquetas de preço com destaque para produtos em promoção por vencimento                 | Atrair a atenção dos clientes para produtos em promoção        |
 | Gerente de loja                    | Emitir relatórios de produtos vendidos com desconto x produtos perdidos por vencimento         | Avaliar a eficácia da estratégia de descontos                  |
-| Multiproprietário                  | Acessar informações de estoque e validade de múltiplas lojas                                   | Gerenciar todas as unidades de forma centralizada              |
-| Multiproprietário                  | Comparar o desempenho de vendas entre diferentes lojas                                         | Identificar melhores práticas e oportunidades de melhoria      |
 | Funcionário de estoque             | Registrar entrada de produtos com leitura de código de barras                                  | Agilizar o processo de cadastro e minimizar erros              |
 | Funcionário de estoque             | Visualizar lista ordenada de produtos por proximidade do vencimento                            | Priorizar a organização de produtos nas gôndolas               |
 
