@@ -10,7 +10,11 @@ A missão deste projeto é reduzir o desperdício alimentar no varejo brasileiro
 
 Visando sustentabilidade através do comprometimento com práticas que reduzam o impacto ambiental do setor alimentício, propomos democratizar o acesso à tecnologia para pequenos e médios negócios através de informações claras e precisas para todos os usuários do sistema.
 
-Neste projeto, o parceiro escolhido foi uma padaria de pequeno porte localizada no bairro XYZ na cidade de Betim, região metropolitana da capital do estado de Minas Gerais.
+Neste projeto, o parceiro escolhido foi uma padaria de pequeno porte localizada no bairro Alterosas na cidade de Betim, região metropolitana da capital do estado de Minas Gerais. A Padaria Soares foi inaugurada no primeiro semestre de 2014, atualmente conta com 6 funcionários, e atende cerca de 250 clientes diariamente.
+
+O principal foco da Padaria Soares é a produção e venda de produtos de panificação (pães, biscoitos, bolos, salgados, entre outros), ofertando também produtos de mercearia como bebidas, alimentos enlatados, biscoitos recheados, produtos de higiene e limpeza, temperos, etc.
+
+Caracterizada como um empreendimento familiar, o estabelecimento busca encontrar uma forma de minimizar o desperdício de produtos por meio de uma tecnologia que possa correlacionar a data de vencimento X frequência de saída dos produtos.
 
 ## Problema
 
@@ -82,5 +86,3 @@ Reconhecendo as variações no perfil tecnológico dos usuários, o projeto incl
 - Consumidores conscientes sobre questões ambientais e desperdício
 - Estudantes e jovens profissionais com orçamento limitado
 - Pessoas interessadas em contribuir para práticas sustentáveis através de suas escolhas de consumo
-
-_Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders._
