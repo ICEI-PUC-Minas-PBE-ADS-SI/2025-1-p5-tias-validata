@@ -47,8 +47,6 @@ Este projeto nasce da necessidade urgente de democratizar o acesso à tecnologia
 2. **Social:** Facilitar o acesso dos consumidores a alimentos de qualidade a preços mais acessíveis, especialmente em um cenário onde a segurança alimentar é uma preocupação crescente;
 3. **Ambiental:** Contribuir para a redução do impacto ambiental associado ao desperdício de alimentos, incluindo emissões de gases de efeito estufa, uso desnecessário de recursos naturais e geração de resíduos.
 
-_O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo._
-
 ## Público-alvo
 
 O projeto destina-se primariamente a dois grupos:
