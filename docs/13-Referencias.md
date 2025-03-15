@@ -1,19 +1,11 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc.) utilizadas no desenvolvimento do trabalho.
+- ENTENDA O QUE SÃO REQUISITOS DE SOFTWARE. **Requisitos Funcionais e Requisitos Não Funcionais: O que são?** Disponível em: <https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/>. Acesso em: 15 mar. 2025.
 
-Exemplo:
+- VERSIOPAROLE. **Objetivos, problema de pesquisa e justificativa**. Medium, [s.d.]. Disponível em: <https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98>. Acesso em: 15 mar. 2025.
 
-- BENYON, David. **Interação humano-computador**. 2. ed. São Paulo: Pearson Prentice Hall, 2011.
+- HOTMART. **Público-alvo: o que é e como definir o da sua empresa**. Blog Hotmart. Disponível em: <https://blog.hotmart.com/pt-br/publico-alvo/>. Acesso em: 15 mar. 2025.
 
-- CORMEN, Thomas H et al. **Algoritmos:** teoria e prática. 4. ed. Rio de Janeiro: GEN LTC, 2024.
- 
-- ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019.
+- DRAW.IO. **Diagrams.net**. Disponível em: <https://app.diagrams.net/>. Acesso em: 15 mar. 2025.
 
-- RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial:** uma abordagem moderna. 4. ed. Rio de Janeiro, RJ: LTC, 2022.
-
-- SUTHERLAND, Jeffrey Victor; SUTHERLAND, J. J. **Scrum:** a arte de fazer o dobro do trabalho na metade do tempo. Rio de Janeiro, RJ: Sextante, 2019. 254 p.
-
-> **Links úteis**:
-> - [Padrão PUC Minas de normalização ABNT](http://portal.pucminas.br/biblioteca/documentos/GUIA-COMPLETO-ABNT-Elaborar-formatar-trabalho-cientificoNOVO.pdf)
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/)
+- ANTHROPIC. **Claude AI**. Disponível em: <https://claude.ai>. Acesso em: 15 mar. 2025.
