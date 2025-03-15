@@ -114,52 +114,11 @@ O projeto está restrito aos itens apresentados na tabela a seguir.
 
 O diagrama de casos de uso apresenta as principais funcionalidades do sistema e como os diferentes atores (usuários) interagem com essas funcionalidades.
 
-```mermaid
-flowchart TD
-    subgraph Atores
-        A1[Proprietário]
-        A2[Gerente]
-        A3[Funcionário de Estoque]
-    end
-
-    subgraph "Sistema de Gestão de Validade e Precificação"
-        UC1[Cadastrar Produtos]
-        UC2[Registrar Vendas]
-        UC3[Monitorar Validade]
-        UC4[Definir Margem de Lucro]
-        UC5[Gerar Sugestões de Desconto]
-        UC6[Aplicar Descontos]
-        UC7[Gerar Etiquetas]
-        UC8[Emitir Relatórios]
-        UC9[Gerenciar Múltiplas Lojas]
-    end
-
-    A1 ---> UC1
-    A1 ---> UC3
-    A1 ---> UC4
-    A1 ---> UC8
-    A1 ---> UC9
-
-    A2 ---> UC1
-    A2 ---> UC2
-    A2 ---> UC3
-    A2 ---> UC5
-    A2 ---> UC6
-    A2 ---> UC7
-    A2 ---> UC8
-
-    A3 ---> UC1
-    A3 ---> UC3
-    A3 ---> UC7
-
-    UC3 --> UC5
-    UC5 --> UC6
-    UC6 --> UC7
-```
+![Diagrama de casos de uso](./images/use_case.png)
 
 O diagrama acima ilustra as interações entre os diferentes atores do sistema:
 
-1. **Proprietário**: Tem acesso às funcionalidades administrativas e estratégicas como cadastrar produtos, monitorar validade, definir margens de lucro, emitir relatórios e gerenciar múltiplas lojas.
+1. **Proprietário**: Tem acesso às funcionalidades administrativas e estratégicas como cadastrar produtos, monitorar validade, definir margens de lucro, emitir relatórios.
 
 2. **Gerente**: Possui acesso operacional mais amplo, incluindo registro de vendas, geração e aplicação de descontos e etiquetas além das funcionalidades compartilhadas com o proprietário.
 
