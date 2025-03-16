@@ -12,7 +12,7 @@ A missão deste projeto é reduzir o desperdício alimentar no varejo brasileiro
 consumidores e meio ambiente.
 
 Visando sustentabilidade através do comprometimento com práticas que reduzam o impacto ambiental do setor alimentício, propomos democratizar o acesso à tecnologia para
-pequenos e médios negócios através de informações claras e precisas para todos os usuários do sistema.
+pequenos e médios negócios através de informações claras e precisas para todos os usuários da aplicação.
 
 Neste projeto, o parceiro escolhido foi uma padaria de pequeno porte localizada no bairro Alterosas na cidade de Betim, região metropolitana da capital do estado
 de Minas Gerais. A Padaria Soares foi inaugurada no primeiro semestre de 2014, atualmente conta com 3 funcionários, e atende cerca de 250 clientes diariamente.
@@ -38,7 +38,7 @@ oportunidades de economia em um cenário econômico desafiador.
 
 ## Objetivos
 
-O sistema de redução de desperdício alimentar foi concebido com os seguintes objetivos primordiais:
+A solução foi concebida com os seguintes objetivos primordiais:
 
 1. Reduzir o volume de alimentos desperdiçados por vencimento nos estabelecimentos participantes;
 2. Criar um sistema inteligente de precificação dinâmica baseado na proximidade da data de validade dos produtos;
@@ -89,11 +89,11 @@ O software foi projetado considerando o perfil tecnológico típico encontrado n
 A maioria destes estabelecimentos já possui computadores básicos ou tablets para operações administrativas e, em alguns casos, sistemas de controle de caixa
 simplificados. A conectividade à internet é comum, embora nem sempre com alta velocidade ou estabilidade.
 
-Muitos utilizam algum software simples de gestão (como planilhas eletrônicas ou sistemas de PDV básicos), ainda há um número considerável desses varejistas que
+Muitos utilizam algum software simples de gestão (como planilhas eletrônicas ou sistemas de PDV básicos), mas, ainda há um número considerável desses varejistas que
 fazem uso predominantemente de métodos manuais ou semi-manuais para gestão de estoque e controle de validade.
 
 Reconhecendo as variações no perfil tecnológico dos usuários, o projeto inclui um processo de onboarding simplificado, além de suporte técnico via WhatsApp.
-Prevê-se um período de treinamento inicial presencial de 4-8 horas para os principais operadores do sistema.
+Prevê-se um período de treinamento inicial presencial de 4-8 horas para os principais operadores da aplicação.
 
 **Consumidores**
 
