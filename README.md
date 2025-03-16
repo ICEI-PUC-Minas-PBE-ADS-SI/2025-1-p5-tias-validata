@@ -1,25 +1,31 @@
-# Nome do projeto
+# Validata
 
 `CURSO: Sistemas de Informação`
 
 `DISCIPLINA: Trabalho Interdisciplinar Aplicações para Sustentabilidade`
 
-`Xº semestre/ANO`
+`1º semestre/2025`
 
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
+O sistema de redução de desperdício alimentar visa criar uma solução tecnológica abrangente para estabelecimentos varejistas de pequeno e médio porte no setor alimentício, como padarias, mercearias e quitandas.
+
+O objetivo primordial é minimizar o descarte de produtos alimentícios devido à expiração da validade, implementando um sistema dinâmico de precificação que oferece descontos progressivos conforme a proximidade da data de vencimento. Esta abordagem não apenas reduz o desperdício, mas também otimiza a margem financeira dos varejistas, transformando potenciais perdas em vendas com margens reduzidas.
+
+Adicionalmente, o projeto busca criar um ecossistema financeiramente otimizado através da análise de dados de vendas e inventário, permitindo aos varejistas aprimorar seus processos de compra junto aos fornecedores. O sistema utiliza análises detalhadas sobre a velocidade de venda dos produtos em diferentes períodos (diário, semanal e mensal) para informar decisões de estoque e reabastecimento.
+
+Ao integrar o gerenciamento de inventário com preços dinâmicos orientados por dados, o projeto visa beneficiar simultaneamente os varejistas, através de maior lucratividade; os consumidores, por meio de acesso a produtos com preços mais atrativos; e o meio ambiente, pela significativa redução do desperdício alimentar.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+- Carlos Alberto Muniz Ferreira Junior
+- Gabriel de Castro Botini Soares
+- Guilherme Saliba Moreira de Oliveira
+- Gustavo Henrique de Souza Cruz
+- Raphael Henrique Oliveira Santos
+- Victor Rowilson Vieira de Carvalho
 
 ## Professor
 
-* Nome completo do(a) professor(a)
+- Amália Soares Vieira de Vasconcelos
 
 ## Instruções de utilização
 
@@ -51,8 +57,8 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 
 # Código
 
-* <a href="src/README.md">Código</a>
+- <a href="src/README.md">Código</a>
 
 # Apresentação
 
-* <a href="presentation/README.md">Apresentação do projeto</a>
+- <a href="presentation/README.md">Apresentação do projeto</a>
