@@ -70,7 +70,7 @@ O software foi projetado considerando o perfil tecnológico típico encontrado n
 
 - **Colaboradores de estoque:** Encarregados do registro de entrada de mercadorias, atualização de quantidades e datas de validade. Geralmente possuem ensino médio completo e familiaridade básica com dispositivos digitais.
 
-- **Operadores de caixa:** Responsáveis pela confirmação das vendas e aplicação dos descontos gerados pelo sistema. Frequentemente são jovens (18-30 anos) com ensino médio completo e alguma facilidade com interfaces digitais simples.
+- **Operadores de caixa:** Responsáveis pela confirmação das vendas e aplicação dos descontos gerados pelo sistema.
 
 A maioria destes estabelecimentos já possui computadores básicos ou tablets para operações administrativas e, em alguns casos, sistemas de controle de caixa simplificados. A conectividade à internet é comum, embora nem sempre com alta velocidade ou estabilidade.
 
