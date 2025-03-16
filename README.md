@@ -4,7 +4,7 @@
 
 `DISCIPLINA: Trabalho Interdisciplinar Aplicações para Sustentabilidade`
 
-`5º semestre/2025`
+`1º semestre/2025`
 
 O sistema de redução de desperdício alimentar visa criar uma solução tecnológica abrangente para estabelecimentos varejistas de pequeno e médio porte no setor alimentício, como padarias, mercearias e quitandas.
 
