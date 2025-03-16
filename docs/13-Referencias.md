@@ -4,6 +4,8 @@
 
 - VERSIOPAROLE. **Objetivos, problema de pesquisa e justificativa**. Medium, [s.d.]. Disponível em: <https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98>. Acesso em: 15 mar. 2025.
 
+- SANEAMENTOAMBIENTAL. **Brasil desperdiça 46 milhões de toneladas de alimentos por ano** Disponível em: <https://www.saneamentoambiental.com.br/noticias/brasil-desperdica-46-milhoes-de-toneladas-de-alimentos-por-ano/>. Acesso em: 15 mar. 2025.
+
 - HOTMART. **Público-alvo: o que é e como definir o da sua empresa**. Blog Hotmart. Disponível em: <https://blog.hotmart.com/pt-br/publico-alvo/>. Acesso em: 15 mar. 2025.
 
 - DRAW.IO. **Diagrams.net**. Disponível em: <https://app.diagrams.net/>. Acesso em: 15 mar. 2025.

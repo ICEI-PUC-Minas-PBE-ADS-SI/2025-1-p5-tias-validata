@@ -1,6 +1,6 @@
 # Introdução
 
-O desperdício de alimentos representa um desafio global significativo, tanto do ponto de vista econômico quanto ambiental. No Brasil, aproximadamente 30% dos alimentos produzidos são desperdiçados anualmente, resultando em perdas financeiras substanciais para o setor varejista e impactos negativos ao meio ambiente.
+O desperdício de alimentos representa um desafio global significativo, tanto do ponto de vista econômico quanto ambiental. No Brasil, aproximadamente 46 milhões de toneladas de alimentos produzidos são desperdiçados anualmente, resultando em perdas financeiras substanciais para o setor varejista e impactos negativos ao meio ambiente.
 
 Os pequenos e médios varejistas de alimentos – incluindo padarias, mercearias, quitandas e minimercados – enfrentam esse problema diariamente, sem acesso a ferramentas tecnológicas adequadas que poderiam mitigar essas perdas e otimizar suas operações.
 
