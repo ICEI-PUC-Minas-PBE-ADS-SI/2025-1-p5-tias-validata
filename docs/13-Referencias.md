@@ -13,3 +13,5 @@
 - DRAW.IO. **Diagrams.net**. Disponível em: <https://app.diagrams.net/>. Acesso em: 15 mar. 2025.
 
 - ANTHROPIC. **Claude AI**. Disponível em: <https://claude.ai>. Acesso em: 15 mar. 2025.
+
+- WEST, Dave **Funções e responsabilidades do Scrum ágil**. Disponível em: <https://www.atlassian.com/br/agile/scrum/roles>. Acesso em: 06 abr. 2025.
