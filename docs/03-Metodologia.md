@@ -3,7 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="02-Especificacao.md"> Especificação do projeto</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para abordar o problema. Inclua definições sobre os ambientes de trabalho utilizados pela equipe para desenvolver o projeto. Isso abrange a relação dos ambientes utilizados, a estrutura para a gestão do código-fonte, além da definição do processo e das ferramentas por meio dos quais a equipe se organiza (gestão de equipes).
+A metodologia adotada pelo grupo se deu por reuniões semanais no período determinado para a aula da disciplina, as principais discussões e decisões foram feitas via grupo no WhatsApp. Também ao longo dessa sprint tivemos a visita no parceiro, Padaria Soares, para retirar mais ideias, insights e tomar consciência de como todo o fluxo estudado é na pratica e no dia a dia de trabalho. Durante essa sprint, não foi iniciado a codificação, ou seja, ainda não houve uma gestão solida das branchs e versões do projeto.
 
 
 ## Controle de versão
@@ -24,7 +24,7 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gestão de tags, merges, commits e branches é realizada. Discuta também como a gestão de issues foi feita.
+A gestão do repositório é feita por meio da abertura de Pull Requests e sua respectiva aprovação pelo Scrum Master da equipe.
 
 > **Links úteis**:
 > - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
@@ -37,8 +37,6 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ###  Divisão de papéis
 
-> Apresente a divisão de papéis entre os membros do grupo em cada Sprint. O desejável é que, em cada Sprint, o aluno assuma papéis diferentes na equipe. Siga o modelo do exemplo abaixo:
-
 #### Sprint 1
 - _Scrum master_: Guilherme 
 - Protótipos: N/A
@@ -47,14 +45,12 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 - Apresentação: Gabriel e Raphael
 
 #### Sprint 2
-- _Scrum master_: AlunaY
-- Desenvolvedor _front-end_: AlunoX
-- Desenvolvedor _back-end_: AlunoK
-- Testes: AlunaZ
+- _Scrum master_: Carlos
+- Documentação: Raphael, Guilherme
+- Apresentação: Gustavo
+- Modelagem: Gabriel e Victor
 
 ###  Quadro de tarefas
-
-> Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme o exemplo abaixo.
 
 #### Sprint 1
 
@@ -78,10 +74,12 @@ Atualizado em: 21/04/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Página inicial   | 01/02/2024     | 07/03/2024 | ✔️    | 05/02/2024      |
-| AlunaZ        | CSS unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
-| AlunoY        | Página de login  | 01/02/2024     | 07/03/2024 | ⌛     |                 |
-| AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
+| Carlos        | Gerenciamento do repo   | 04/04/2025     | 06/04/2025 | ✔️    | 06/04/2025     |
+| Raphael        | Documentação    | 04/04/2025     | 06/04/2025 | ✔️    |       06/04/2025          |
+| Guilherme        | Documentação    | 04/04/2025      | 06/04/2025 | ✔️    |      06/04/2025           |
+| Gustavo        | Slides  |  04/04/2025     | 06/04/2025 | ✔️    |    06/04/2025   |
+| Gabriel        | Modelagem  |  04/04/2025    | 06/04/2025 | ✔️    |   06/04/2025    |
+| Victor        | Modelagem  |  04/04/2025    | 06/04/2025 | ✔️    |   06/04/2025    |
 
 
 Legenda:
