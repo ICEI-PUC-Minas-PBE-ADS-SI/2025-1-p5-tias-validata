@@ -2,7 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="02-Especificacao.md"> Especificação do projeto</a></span>
 
-A metodologia adotada pelo grupo se deu por reuniões semanais no período determinado para a aula da disciplina, as principais discussões e decisões foram feitas via grupo no WhatsApp. Também ao longo dessa sprint tivemos a visita no parceiro, Padaria Soares, para retirar mais ideias, insights e tomar consciência de como todo o fluxo estudado é na pratica e no dia a dia de trabalho. Durante essa sprint, não foi iniciado a codificação, ou seja, ainda não houve uma gestão solida das branchs e versões do projeto.
+A metodologia adotada pelo grupo se deu por reuniões semanais no período determinado para a aula da disciplina, as principais discussões e decisões foram feitas via grupo no WhatsApp e conversas no Discord. Também ao longo dessa sprint tivemos a visita no parceiro, Padaria Soares, para retirar mais ideias, insights e tomar consciência de como todo o fluxo estudado é na pratica e no dia a dia de trabalho. Durante essa sprint, não foi iniciado a codificação, ou seja, ainda não houve uma gestão solida das branchs e versões do projeto.
 
 ## Controle de versão
 
@@ -36,6 +36,8 @@ Branches de desenvolvimento são organizadas e definidas seguindo a convenção 
 ```txt
 chore/docs-sprint-2
 ```
+
+Branches de desenvolvimento como a do exemplo acima são implementadas à branch `dev`, que representa a versão de desenvolvimento do software, e seguem até a versão final na branch `main`. Cada entrega segue o fluxo: `feature` -> `dev` -> `unstable` -> `main`.
 
 ## Planejamento do projeto
 
@@ -108,10 +110,12 @@ Liste todas as ferramentas que foram empregadas no projeto, justificando a escol
 
 Exemplo: os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
-| Ambiente                    | Plataforma      | Link de acesso |
-| --------------------------- | --------------- | -------------- |
-| Repositório de código fonte | GitHub          | http://....    |
-| Documentos do projeto       | GitHub          | http://....    |
-| Projeto de interface        | Figma           | http://....    |
-| Gerenciamento do projeto    | GitHub Projects | http://....    |
-| Hospedagem                  | Vercel          | http://....    |
+| Ambiente                    | Plataforma      | Link de acesso                                                                  |
+| --------------------------- | --------------- | ------------------------------------------------------------------------------- |
+| Repositório de código fonte | GitHub          | https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-validata            |
+| Documentação do projeto     | GitHub          | https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-validata            |
+| Relatório do projeto        | Google Docs     | https://docs.google.com/document/d/1R6OyTA9ebJEBLwtKkMx5nWHadldS-rxH3FEx8CxLjog |
+| Gerenciamento do projeto    | GitHub Projects | https://github.com/orgs/ICEI-PUC-Minas-PBE-ADS-SI/projects/35/                  |
+| Modelagem de processos      | Bizagi          | N/A                                                                             |
+| Comunicação em grupo        | WhatsApp        | N/A                                                                             |
+| Reuniões em grupo           | Discord         | N/A                                                                             |
