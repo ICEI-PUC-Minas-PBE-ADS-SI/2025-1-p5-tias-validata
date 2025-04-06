@@ -12,7 +12,7 @@ Cole os modelos dos processos atuais (modelo AS IS) elaborados com a ferramenta 
   ![Processo AS IS – Controle de Estoque](./images/processes/controle-estoque-as-is.png "Modelo BPMN do Processo AS IS - Controle de Estoque")
 
 - **Controle de Precificação (AS IS):**
-  _Cole aqui o modelo BPMN do Processo AS IS - Controle de Precificação_
+  ![Processo TO BE - Controle de Precificação](./images/processes/controle-precificacao-as-is.png "Modelo BPMN do Processo AS IS - Controle de Precificação")
 
 ---
 
@@ -32,7 +32,7 @@ Cole os modelos da solução proposta (modelo TO BE) elaborados com a ferramenta
   ![Processo TO BE – Controle de Estoque](./images/processes/controle-estoque-to-be.png "Modelo BPMN do Processo TO BE - Controle de Estoque")
 
 - **Controle de Precificação (TO BE):**
-  _Cole aqui o modelo BPMN do Processo TO BE - Controle de Precificação_
+  ![Processo TO BE - Controle de Precificação](./images/processes/controle-precificacao-to-be.png "Modelo BPMN do Processo TO BE - Controle de Precificação")
 
 ---
 

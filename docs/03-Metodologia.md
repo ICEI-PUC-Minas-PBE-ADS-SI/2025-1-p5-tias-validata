@@ -2,7 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="02-Especificacao.md"> Especificação do projeto</a></span>
 
-A metodologia adotada pelo grupo se deu por reuniões semanais no período determinado para a aula da disciplina, as principais discussões e decisões foram feitas via grupo no WhatsApp e conversas no Discord. Também ao longo dessa sprint tivemos a visita no parceiro, Padaria Soares, para retirar mais ideias, insights e tomar consciência de como todo o fluxo estudado é na pratica e no dia a dia de trabalho. Durante essa sprint, não foi iniciado a codificação, ou seja, ainda não houve uma gestão solida das branchs e versões do projeto.
+A metodologia adotada pelo grupo se deu por reuniões semanais no período determinado para a aula da disciplina, as principais discussões e decisões foram feitas via grupo no WhatsApp e conversas no Discord. Também ao longo da segunda sprint tivemos a visita no parceiro, Padaria Soares, para retirar mais ideias, insights e tomar consciência de como todo o fluxo estudado é na pratica e no dia a dia de trabalho.
 
 ## Controle de versão
 
@@ -53,8 +53,8 @@ Branches de desenvolvimento como a do exemplo acima são implementadas à branch
 
 #### Sprint 2
 
-- _Scrum master_: Carlos
-- Documentação: Raphael, Guilherme
+- _Scrum master_: Carlos e Guilherme
+- Documentação: Raphael, Guilherme e Carlos
 - Apresentação: Gustavo
 - Modelagem: Gabriel e Victor
 
@@ -78,7 +78,7 @@ Atualizado em: 16/03/2025
 
 #### Sprint 2
 
-Atualizado em: 21/04/2024
+Atualizado em: 05/04/2025
 
 | Responsável | Tarefa/Requisito      | Iniciado em |   Prazo    | Status | Terminado em |
 | :---------- | :-------------------- | :---------: | :--------: | :----: | :----------: |
@@ -106,9 +106,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. Tod
 
 ### Ferramentas
 
-Liste todas as ferramentas que foram empregadas no projeto, justificando a escolha delas, sempre que possível.
-
-Exemplo: os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
 | Ambiente                    | Plataforma      | Link de acesso                                                                  |
 | --------------------------- | --------------- | ------------------------------------------------------------------------------- |
