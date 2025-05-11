@@ -22,7 +22,7 @@ A partir da definição dos requisitos funcionais do projeto, evidencia-se  algu
 Aqui são apresentados os principais fluxos para o usuário decidir qual seguir.
 
 ### Recomendações
-![Recomendações](images/prototipo-sugestion.png)
+![Recomendações](images/prototipo-sugestions.png)
 Os produtos que contém uma relação entre custo e data de validade são atrelados a preços de vendas sugerido
 
 ### Cadastro de Produtos
