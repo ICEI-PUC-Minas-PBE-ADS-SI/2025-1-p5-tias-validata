@@ -14,7 +14,6 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 ![Diagrama de fluxo](images/diagrama-fluxo.png)
 
 ## Interface do sistema/Wireframes
-
 A partir da definição dos requisitos funcionais do projeto, evidencia-se  algumas funções principais que o sistema deve incorporar, como a leitura de um código de barras sendo o núcleo de toda a aplicação e a partir disso, o cadastro de um produto, listagem de produtos, leitura de dados de um produto específico e alteração cadastral do mesmo. Também faz-se importante a implementação de um algoritmo para recomendação de venda de produtos a partir de duas variáveis: seu custo e data de vencimento. Assim, estrutura-se o software pelas entidades que o compõe, casos de uso para relacioná-las, persistência de dados em um banco relacional e a prototipagem de mocks visando a navegabilidade usual dos usuários finais.
 
 ### Home
