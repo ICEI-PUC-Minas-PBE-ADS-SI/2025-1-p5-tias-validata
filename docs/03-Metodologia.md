@@ -89,6 +89,19 @@ Atualizado em: 05/04/2025
 | Gabriel     | Modelagem             | 04/04/2025  | 06/04/2025 |   ✔️   |  06/04/2025  |
 | Victor      | Modelagem             | 04/04/2025  | 06/04/2025 |   ✔️   |  06/04/2025  |
 
+#### Sprint 3
+
+Atualizado em: 11/05/2025
+
+| Responsável | Tarefa/Requisito     | Iniciado em |   Prazo    | Status | Terminado em |
+| :---------- | :------------------- | :---------: | :--------: | :----: | :----------: |
+| Carlos      | Modelagem do banco   | 27/04/2025  | 11/05/2025 |   ✔️   |  06/04/2025  |
+| Raphael     | Prototipagem e Figma | 05/05/2025  | 11/05/2025 |   ✔️   |  11/05/2025  |
+| Guilherme   | Diagramação e slides | 09/05/2025  | 11/05/2025 |   ✔️   |  11/05/2025  |
+| Gustavo     | Documentação e Figma | 05/05/2025  | 11/05/2025 |   ✔️   |  11/05/2025  |
+| Gabriel     | Diagramação          | 09/05/2025  | 11/05/2025 |   ✔️   |  11/05/2025  |
+| Victor      | Modelagem do banco   | 27/04/2025  | 11/05/2025 |   ✔️   |  11/05/2025  |
+
 Legenda:
 
 - ✔️: terminado
@@ -117,3 +130,4 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Modelagem de processos      | Bizagi          | N/A                                                                             |
 | Comunicação em grupo        | WhatsApp        | N/A                                                                             |
 | Reuniões em grupo           | Discord         | N/A                                                                             |
+| Prototipagem e design       | Figma           | https://www.figma.com/design/vG3ts8Wyw0B9n6OleH2kRg/Validata?node-id=0-1&p=f    |
