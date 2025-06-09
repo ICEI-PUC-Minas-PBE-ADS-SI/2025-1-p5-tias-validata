@@ -102,6 +102,19 @@ Atualizado em: 11/05/2025
 | Gabriel     | Diagramação          | 09/05/2025  | 11/05/2025 |   ✔️   |  11/05/2025  |
 | Victor      | Modelagem do banco   | 27/04/2025  | 11/05/2025 |   ✔️   |  11/05/2025  |
 
+#### Sprint 4
+
+Atualizado em: 08/06/2025
+
+| Responsável | Tarefa/Requisito     | Iniciado em |   Prazo    | Status | Terminado em |
+| :---------- | :------------------- | :---------: | :--------: | :----: | :----------: |
+| Carlos      | Configuração Inicial do Backend + módulo de usuário   | 19/05/2025  | 08/06/2025 |   ✔️   |   08/06/2025  |
+| Raphael     | Implementação da leitura dos produtos com código de barras | 01/06/2025  |  08/06/2025 |   ✔️   |   08/06/2025  |
+| Guilherme   | Autenticação no backend e criação dos slides | 19/05/2025  | 01/06/2025 |   ✔️   |   08/06/2025  |
+| Gustavo     | Documentação e Módulo de Produtos | 05/05/2025  | 18/05/2025 |   ✔️   |   08/06/2025  |
+| Gabriel     | Documentação e Front end da aplicação      | 19/05/2025  |  08/06/2025 |   ✔️   |   08/06/2025  |
+| Victor      | Modelagem do banco Configuração do Docker e deploy  | 27/05/2025  |  08/06/2025 |   ✔️   |   08/06/2025  |
+
 Legenda:
 
 - ✔️: terminado
