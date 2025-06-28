@@ -2,11 +2,4 @@
 
 <span style="color:red">Pré-requisitos: <a href="02-Especificacao.md"> Especificação do projeto</a></span>, <a href="03-Metodologia.md"> Metodologia</a>, <a href="05-Projeto-interface.md"> Projeto de interface</a>
 
-Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, descrição sobre o significado e os elementos visuais do logotipo da aplicação, aspectos de responsividade e iconografia.
-
-> **Links úteis**:
->
-> - [CSS website layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website page layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect liquid layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and why icons improve your web design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+O layout real da aplicação adota um visual claro e minimalista, com fundo branco absoluto em todas as áreas (header, sidebar e conteúdo) e um toque vibrante de vermelho‑magenta como cor de destaque em botões (“+ Cadastrar Produto”), ícones ativos e indicadores de seleção no menu lateral. O sidebar é igualmente branco, com itens de navegação em texto cinza‑escuro (#374151) que, ao serem selecionados, recebem fundo rosado suave (#FFEDEE) e cor de texto vermelho‑magenta (#E11D48). Os cards de listagem possuem leve sombra e cantos arredondados, com títulos em preto forte e subtítulos e informações secundárias em cinza médio (#6B7280). A tipografia consistente utiliza “Inter” (ou sistema sans‑serif) em 16 px para textos corridos, 24 px para headings e 14 px para notas, sempre respeitando espaçamento de 16 px entre componentes e 8 px nas margens internas. O logotipo “Validata” no topo da sidebar é apresentado em fonte semibold vermelha, reforçando a identidade; já a iconografia, importada via SVG (baseada em Heroicons), adota traço uniforme e interage em hover com a mesma cor de destaque vermelho‑magenta para sinais visuais claros. Em mobile, o menu lateral colapsa num “hamburger” no header e os cards passam a ocupar toda a largura, garantindo usabilidade e legibilidade em todas as resoluções.
