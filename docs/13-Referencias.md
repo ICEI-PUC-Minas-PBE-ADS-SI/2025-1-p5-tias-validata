@@ -1,17 +1,19 @@
 # Referências
 
-- ALFF, Franclivio R. **Requisitos Funcionais e Requisitos Não Funcionais: O que são?**. Disponível em: <https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/>. Acesso em: 15 mar. 2025.
+- TOTVS. **BPMN: entenda o que é e como aplicar na gestão industrial**. Disponível em: https://www.totvs.com/blog/gestao-industrial/bpmn/. Acesso em: 05 abr. 2025.
 
-- PAROLE, Versio. **Objetivos, problema de pesquisa e justificativa**. Medium, [s.d.]. Disponível em: <https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3>. Acesso em: 15 mar. 2025.
+- REACT. **Documentação oficial – Guias e API**. Disponível em: https://reactjs.org/docs/getting-started.html. Acesso em: 19 de junho de 2025.
 
-- INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). **POF 2017-2018: Famílias com até R$ 1,9 mil destinam 61,2% de seus gastos à alimentação e habitação**. Disponível em: <https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/25598-pof-2017-2018-familias-com-ate-r-1-9-mil-destinam-61-2-de-seus-gastos-a-alimentacao-e-habitacao>. Acesso em: 16 mar. 2025
+- NESTJS. **Documentação oficial**. Disponível em: https://docs.nestjs.com/. Acesso em: 19 de junho de 2025.
 
-- EDITORA SIGNUS. **Brasil desperdiça 46 milhões de toneladas de alimentos por ano**. Disponível em: <https://www.saneamentoambiental.com.br/noticias/brasil-desperdica-46-milhoes-de-toneladas-de-alimentos-por-ano/>. Acesso em: 15 mar. 2025.
+- TYPESCRIPT. **Documentação oficial**. Disponível em: https://www.typescriptlang.org/docs/. Acesso em: 22 de junho de 2025.
 
-- HOTMART. **Público-alvo: o que é e como definir o da sua empresa**. Disponível em: <https://blog.hotmart.com/pt-br/publico-alvo/>. Acesso em: 15 mar. 2025.
+- NODE.JS. **Documentação oficial – Guides & API**. Disponível em: https://nodejs.org/en/docs/. Acesso em: 17 de maio de 2025.
 
-- DRAW.IO. **Diagrams.net**. Disponível em: <https://app.diagrams.net/>. Acesso em: 15 mar. 2025.
+- DOCKER. **Documentação oficial – Engine, CLI e Compose**. Disponível em: https://docs.docker.com/. Acesso em: 20 de maio de 2025.
 
-- ANTHROPIC. **Claude AI**. Disponível em: <https://claude.ai>. Acesso em: 15 mar. 2025.
+- POSTGRESQL. **Documentação oficial – Manual do Usuário**. Disponível em: https://www.postgresql.org/docs/. Acesso em: 02 de junho de 2025.
 
-- WEST, Dave **Funções e responsabilidades do Scrum ágil**. Disponível em: <https://www.atlassian.com/br/agile/scrum/roles>. Acesso em: 06 abr. 2025.
+- VUEJS. **Documentação oficial - Guia**. Disponível em: https://br.vuejs.org/v2/guide. Acesso em: 18 de junho de 2025.
+
+- KELLY, Paul. **Inventory Management 101: How to Optimize Stock Control**. Disponível em: https://www.tradegecko.com/inventory-management/what-is-inventory-management. Acesso em: 20 de junho de 2025.

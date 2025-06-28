@@ -1,3 +1,3 @@
 # Conclusão
 
-Apresente, aqui, a conclusão do trabalho, que deve conter uma síntese dos principais resultados obtidos com a melhoria dos processos, uma discussão das limitações da solução proposta e sugestões de novas linhas de estudo.
+A Validata mostrou ser bastante eficaz na gestão de produtos perecíveis, utilizando descontos inteligentes que levam em conta a validade e o histórico de vendas, ajudando a reduzir perdas e a aumentar a rotatividade. Sua interface, com alertas e dashboards, torna a tomada de decisões mais fácil e melhora a eficiência operacional. No entanto, ela depende de registros históricos completos e não leva em conta variáveis externas, como sazonalidade ou promoções de concorrentes. Para avançar, seria interessante incorporar modelos de Machine Learning em tempo real, integrar dados externos (como mercado e clima) e usar sensores IoT para monitoramento contínuo.

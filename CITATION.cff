@@ -2,29 +2,29 @@ cff-version: 1.2.0
 message: Please cite this software using these metadata.
 title: ValiData
 authors:
-  - family-names: Oliveira Santos
-    given-names: Raphael Henrique
-  - family-names: Sobrenome do aluno 2
-    given-names: Nome do aluno 2 
-  - family-names: Sobrenome do aluno 3
-    given-names: Nome do aluno 3 
-  - family-names: Sobrenome do aluno 4
-    given-names: Nome do aluno 4 
-  - family-names: Sobrenome do aluno 5
-    given-names: Nome do aluno 5 
-  - family-names: Sobrenome do aluno 6
-    given-names: Nome do aluno 6 
+  - family-names: Muniz
+    given-names: Carlos Alberto
+  - family-names: Castro
+    given-names: Gabriel 
+  - family-names: Saliba
+    given-names: Guilherme 
+  - family-names: Souza
+    given-names: Gustavo Henrique 
+  - family-names: Oliveira
+    given-names: Raphael Henrique 
+  - family-names: Rowilson
+    given-names: Victor 
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: Sobrenome do(a) professor(a)
-    given-names: Nome do(a) professor(a)
+    family-names: Soares
+    given-names: Amália
   - name-suffix: Professora
     affiliation: PUC Minas    
 keywords:
-    - coloque aqui a palavra-chave 1
-    - coloque aqui a palavra-chave 2
-    - coloque aqui a palavra-chave 3
+    - Cadastro de Produtos
+    - Leitura de Código de Barras
+    - Análise de data de validade
 repository-code: https://github.com/ICEI-PUC-Minas-PBE-ADS-SI/2025-1-p5-tias-validata
 license: CC-BY-4.0
-version: 1.0.0
-date-released: 2024-08-01
+version: 1.0.1
+date-released: 2025-06-21
