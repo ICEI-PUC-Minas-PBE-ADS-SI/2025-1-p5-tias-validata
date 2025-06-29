@@ -87,3 +87,7 @@ https://validata-front.vercel.app/
 # Apresentação
 
 - <a href="presentation/README.md">Apresentação do projeto</a>
+
+# Vídeo
+
+https://drive.google.com/file/d/10JqmUeXKMFb6fM4QJSBOnMqWbE6NYIvc/view?usp=drive_link
