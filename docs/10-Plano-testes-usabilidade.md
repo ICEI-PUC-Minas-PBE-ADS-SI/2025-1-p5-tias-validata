@@ -34,13 +34,9 @@ Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as info
 
 | Nº do cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iPhone. Encontre no site um iPhone e veja detalhes de localização e contato da loja que o está anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphones nessa faixa de preço. |
-
-
-> **Links úteis**:
-> - [Teste de usabilidade: o que é e como fazer passo a passo](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber!](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de testes de usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+| 1 | Você é uma pessoa responsável pelo estoque e deseja cadastrar rapidamente um novo produto que chegou na loja. Realize o cadastro usando a leitura do código de barras e preencha as informações obrigatórias com facilidade. |
+| 2 | Você é uma pessoa responsável por evitar perdas por vencimento e deseja verificar rapidamente quais produtos estão próximos do vencimento nesta semana, sem precisar acessar várias telas ou menus. |
+| 3 | Você é uma pessoa gestora de vendas e deseja visualizar de forma clara o total de vendas e os produtos mais vendidos em um gráfico para tomar decisões de reposição. Verifique se consegue acessar e interpretar os dashboards disponíveis na área de análises de vendas. |
+| 4 | Você é uma pessoa analista de estoque e deseja aplicar descontos em lote em produtos próximos ao vencimento de forma rápida. Tente selecionar diversos produtos no sistema e aplicar um percentual de desconto em lote. |
+| 5 | Você é uma pessoa gestora que deseja configurar margens mínimas de lucro para produtos de uma categoria específica. Verifique se consegue localizar facilmente a tela de configuração e realizar a alteração de forma intuitiva. |
+| 6 | Você é um vendedor em treinamento e precisa entender rapidamente o funcionamento da plataforma para identificar produtos críticos (muito próximos ao vencimento) e receber notificações sem precisar explorar manualmente todo o estoque. |
