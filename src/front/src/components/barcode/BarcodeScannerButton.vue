@@ -1,6 +1,8 @@
 <template>
   <div>
-    <n-button @click="showScanner = true" type="primary"> Cadastrar produto </n-button>
+    <Button @click="showScanner = true" size="large" icon="pi pi-qrcode">
+      Cadastrar produto
+    </Button>
 
     <barcode-scanner
       v-if="showScanner"
@@ -12,7 +14,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { NButton } from 'naive-ui'
+import Button from 'primevue/button'
 import BarcodeScanner from './BarcodeScanner.vue'
 
 const showScanner = ref(false)

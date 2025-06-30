@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
@@ -7,18 +6,46 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#ff0000',
-        'primary-50': '#fff0f0',
-        'primary-100': '#ffdddd',
-        'primary-200': '#ffc0c0',
-        'primary-300': '#ff9494',
-        'primary-400': '#ff5757',
-        'primary-500': '#ff2323',
-        'primary-600': '#ff0000',
-        'primary-700': '#d70000',
-        'primary-800': '#b10303',
-        'primary-900': '#920a0a',
+        primary: {
+          50: '#fef7ff',
+          100: '#fdeeff',
+          200: '#fcddff',
+          300: '#fab3ff',
+          400: '#f673ff',
+          500: '#ed3bff',
+          600: '#d115e8',
+          700: '#ac0bc5',
+          800: '#8c0ca0',
+          900: '#730e82',
+          950: '#4e0254',
+        },
         secondary: {
+          50: '#f0f9ff',
+          100: '#e0f2fe',
+          200: '#bae6fd',
+          300: '#7dd3fc',
+          400: '#38bdf8',
+          500: '#0ea5e9',
+          600: '#0284c7',
+          700: '#0369a1',
+          800: '#075985',
+          900: '#0c4a6e',
+          950: '#082f49',
+        },
+        accent: {
+          50: '#f0fdf4',
+          100: '#dcfce7',
+          200: '#bbf7d0',
+          300: '#86efac',
+          400: '#4ade80',
+          500: '#22c55e',
+          600: '#16a34a',
+          700: '#15803d',
+          800: '#166534',
+          900: '#14532d',
+          950: '#052e16',
+        },
+        danger: {
           50: '#fef2f2',
           100: '#fee2e2',
           200: '#fecaca',
@@ -29,7 +56,42 @@ export default {
           700: '#b91c1c',
           800: '#991b1b',
           900: '#7f1d1d',
+          950: '#450a0a',
+        }
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'hero-gradient': 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+        'primary-gradient': 'linear-gradient(135deg, #ed3bff 0%, #0ea5e9 100%)',
+        'card-gradient': 'linear-gradient(145deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05))',
+      },
+      animation: {
+        'fade-in': 'fadeIn 0.5s ease-in-out',
+        'slide-up': 'slideUp 0.6s ease-out',
+        'float': 'float 3s ease-in-out infinite',
+        'glow': 'glow 2s ease-in-out infinite alternate',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
         },
+        slideUp: {
+          '0%': { opacity: '0', transform: 'translateY(30px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+        glow: {
+          '0%': { boxShadow: '0 0 20px rgba(237, 59, 255, 0.3)' },
+          '100%': { boxShadow: '0 0 30px rgba(237, 59, 255, 0.6)' },
+        },
+      },
+      backdropBlur: {
+        xs: '2px',
       }
     }
   },

@@ -1,45 +1,40 @@
 <template>
-  <footer class="bg-white">
+  <footer class="bg-white border-t">
     <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
-      <n-space vertical>
+      <div class="space-y-8">
         <nav class="flex flex-wrap justify-center" aria-label="Footer">
-          <n-button
+          <Button
             v-for="item in navigationItems"
             :key="item.href"
-            text
+            link
             class="px-5 py-2"
             @click="scrollTo(item.href)"
           >
             {{ item.label }}
-          </n-button>
+          </Button>
         </nav>
 
         <div class="flex justify-center space-x-6">
-          <n-button
+          <Button
             v-for="social in socialLinks"
             :key="social.name"
             text
-            circle
+            rounded
+            :icon="social.icon"
             @click="openSocialLink(social.href)"
-          >
-            <template #icon>
-              <n-icon>
-                <i :class="social.icon"></i>
-              </n-icon>
-            </template>
-          </n-button>
+          />
         </div>
 
         <p class="text-center text-base text-gray-400">
           &copy; {{ new Date().getFullYear() }} Validata. Todos os direitos reservados.
         </p>
-      </n-space>
+      </div>
     </div>
   </footer>
 </template>
 
 <script setup lang="ts">
-import { NSpace, NButton, NIcon } from 'naive-ui'
+import Button from 'primevue/button'
 
 const navigationItems = [
   { label: 'Recursos', href: '#features' },
@@ -48,9 +43,9 @@ const navigationItems = [
 ]
 
 const socialLinks = [
-  { name: 'Facebook', icon: 'fab fa-facebook', href: '#' },
-  { name: 'Instagram', icon: 'fab fa-instagram', href: '#' },
-  { name: 'Twitter', icon: 'fab fa-twitter', href: '#' },
+  { name: 'Facebook', icon: 'pi pi-facebook', href: '#' },
+  { name: 'Instagram', icon: 'pi pi-instagram', href: '#' },
+  { name: 'Twitter', icon: 'pi pi-twitter', href: '#' },
 ]
 
 const scrollTo = (id: string) => {

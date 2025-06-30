@@ -1,21 +1,10 @@
 <template>
-  <n-config-provider :theme-overrides="themeOverrides">
-    <n-message-provider>
-      <n-dialog-provider>
-        <n-notification-provider>
-          <router-view />
-        </n-notification-provider>
-      </n-dialog-provider>
-    </n-message-provider>
-  </n-config-provider>
+  <router-view />
+  <Toast />
 </template>
 
 <script setup lang="ts">
-import { inject } from 'vue'
-import { NConfigProvider, NMessageProvider, NDialogProvider, NNotificationProvider } from 'naive-ui'
-import type { GlobalThemeOverrides } from 'naive-ui'
-
-const themeOverrides = inject<GlobalThemeOverrides>('themeOverrides')
+import Toast from 'primevue/toast'
 </script>
 
 <style>
